@@ -4,7 +4,7 @@ import { Courses } from './components/Courses';
 const App = () => {
   return (
     <AppWrapper>
-      <Heading>CSE Courses</Heading>
+      <Heading>CSE Course Ratings</Heading>
       <Courses /> 
    </AppWrapper>
   );
