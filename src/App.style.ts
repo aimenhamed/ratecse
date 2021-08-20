@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+export const AppWrapper = styled.div`
+  text-align: center;
+`;
+
 export const Text = styled.p`
   font-size: 18px;
   line-height: 24px;
@@ -8,8 +12,8 @@ export const Text = styled.p`
 `;
 
 export const Heading = styled.h1`
+  text-align: center;
   font-size: 65px;
   line-height: 72px;
-  width: max-content;
   font-family: "Space Grotesk";
 `;
