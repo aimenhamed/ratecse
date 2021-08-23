@@ -16,4 +16,6 @@ export const Heading = styled.h1`
   font-size: 65px;
   line-height: 72px;
   font-family: "Space Grotesk";
+  padding-bottom: 30px;
+  padding-top: 30px;
 `;

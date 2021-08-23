@@ -17,17 +17,18 @@ export const CourseItem = styled.li`
   max-width: 320px;
   display: flex;
   flex-direction: column;
-  align-items: left;
-  margin-right: auto;
+  align-items: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
 `;
 
-export const LikeButton = styled.div`
+export const LikeButton = styled.button`
   background-color: #eee;
   border: none;
-  width: 100%;
+  width: 50%;
   border-radius: 50px;
   color: #eee;
-  display: flex;
   text-align: center;
   align-items: center;
+  padding: 30px;
 `;
