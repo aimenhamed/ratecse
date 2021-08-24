@@ -19,3 +19,7 @@ export const Heading = styled.h1`
   padding-bottom: 30px;
   padding-top: 30px;
 `;
+
+export const Image = styled.img`
+  width: 100px;
+`;

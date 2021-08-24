@@ -23,6 +23,7 @@ export const CourseItem = styled.li`
 `;
 
 export const LikeButton = styled.button`
+  transition: 0.25s;
   background-color: #eee;
   border: none;
   width: 50%;
@@ -31,4 +32,15 @@ export const LikeButton = styled.button`
   text-align: center;
   align-items: center;
   padding: 30px;
+
+  &:hover {
+    background-color: #ffd6d6;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    box-shadow: 5px 10px #ffc2c2;
+  }
+  &:active {
+    box-shadow: 0 5px #ffc2c2;
+    transform: translateY(4px);
+  }
 `;
