@@ -39,7 +39,7 @@ export const Courses = () => {
                         <CourseItem>
                             <Text id={course.id}>{course.name}</Text>
                             <LikeButton onClick={() => likeCourse(course.id)}>
-                                {likedList[course.id] == true ?
+                                {likedList[course.id] === true ?
                                     <BsHeartFill color="ff5c5c" size="2rem" />
                                     :
                                     <BsHeart color="ff5c5c" size="2rem" />
