@@ -34,7 +34,7 @@ export const Courses = () => {
     return (
         <Container>
             <Row xs={1} sm={2} md={3}>
-                {courses && courses.map((course) => (
+                {courses ? courses.map((course) => (
                     <Col>
                         <CourseItem>
                             <Text id={course.id}>{course.name}</Text>
@@ -48,7 +48,7 @@ export const Courses = () => {
                             </LikeButton>
                         </CourseItem>
                     </Col>
-                ))}
+                )): <Text>Loading..</Text>}
             </Row>
         </Container>
     );
